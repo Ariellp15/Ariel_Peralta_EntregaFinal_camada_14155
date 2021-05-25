@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Mi Objetivo</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/Mi Proyecto PNG 800x800.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">¿Cómo Funciona?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Alumno</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-heading text-uppercase">Pongamos en movimiento tus ahorros</div>
+                <div class="masthead-subheading">
+                    <img src="assets/img/Mi Proyecto PNG 800x800.png" alt="">
+                </div>
+                <div class="masthead-subheading">Te ayudamos en el camino hacia tus objetivos de ahorro</div>
+
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">¿Qué es "Mi Proyecto"?</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">¿Cómo Funciona?</h2>
+                    <h3 class="section-subheading text-muted">Resulta tan facil que solo en tres pasos podemos explicarlo...</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x my-3">
+                            <img src="assets/img/logos/Conocerte.svg" margin="10px" alt="">
+                        </span>
+                        <h4 class="my-3">Lo primero es conocerte</h4>
+                        <p class="text-muted">Mediante unas breves preguntas, identificamos cúal es tu objetivo y cuanto tiempo tardarás en alcanzarlo según tu capacidad de ahorro.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                        <span class="fa-stack my-3 fa-4x">
+                            <img src="assets/img/logos/Poryectos.svg" alt="">    
+                        </span>
+                        </div>
+                        <h4 class="my-3">Luego debes conocer las alternativas</h4>
+                        <p class="text-muted">En base a tus respuestas, te sugerimos diferentes alternativas para que puedas elegir un proyecto que te permita alcanzar antes tu objetivo.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack my-3 fa-4x">
+                            <img src="assets/img/logos/elegido.svg" alt="">
+                        </span>
+                        <h4 class="my-3">Elige un proyecto</h4>
+                        <p class="text-muted">Finalmente, elige el proyecto que más se adecue a tu perfil. No te olvides de sumar tu ahorro mensual al proyecto elegido para cumplir el objetivo que te has propuesto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact V1-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Conozcamos de ti y de tus objetivos</h2>
+                    <h3 class="section-subheading text-muted">Las respuestas no son definitorias, podrás volver a completar el fomulario si deseas cargar un nuevo objetivo de ahorro</h3>
+                </div>
+                <form id="contactForm" action="">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre*" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="surname" type="text" placeholder="Apellido*" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="age" type="number" placeholder="Edad*" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="objective" type="number" placeholder="Objetivo de ahorro (monto al cual deseas llegar)*" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="saving" type="number" placeholder="Capacidad de ahorro mensual *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Espacio libre para comentarios que quieras hacernos *" required="required"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary-t btn-xl text-uppercase " id="sendMessageButton" onclick="profile()" type="button"> <a class="nav-link" font-color="black" href="#portfolio">Confirmar Respuestas</a></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Ahora elige tu proyectos y simula tu inversión</h2>
+                    <h3 class="section-subheading text-muted">Un proyecto que se adapta a cada objetivo que tengas</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/proyecto_bonos.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bonos del Tesoro Americano</div>
+                                <div class="portfolio-caption-subheading text-muted">TNA: 2%</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/proyecto_oro.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Oro</div>
+                                <div class="portfolio-caption-subheading text-muted">TNA: 3%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/proyecto_vacas.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Proyectos Ganaderos</div>
+                                <div class="portfolio-caption-subheading text-muted">TNA: 10%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/proyecto_cripto.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Criptoactivos</div>
+                                <div class="portfolio-caption-subheading text-muted">TNA: 23%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-xl text-uppercase portfolioButton" id="sendMessageButton" onclick="postAjax()" type="button">Enviar Proyectos por Email</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Hola Mundo</h2>
+                    <h3 class="section-subheading text-muted">Detrás de todo gran site, hay un pequeño developer...</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Ariel Peralta Alumno Coder House.png" alt="..." />
+                            <h4>Peralta Aliano Luis Ariel</h4>
+                            <p class="text-muted">Full Stack Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ariellpe/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/luis-ariel-peralta-aliano-aa46234a/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Esta es mi entrega final de proyecto en el curso final de Javascript de Coder House camada 14155</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">¿Dudas? Contactanos</h2>
+                </div>
+                <form id="contactForm">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar Consulta</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        Copyright &copy; Your Website
+                        <!-- This script automatically adds the current year to your website footer-->
+                        <!-- (credit: https://updateyourfooter.com/)-->
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/luis-ariel-peralta-aliano-aa46234a/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Bonos del Tesoro Americano</h2>
+                                    <p class="item-intro text-muted">Tasa Nominal Anual: 2%</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/proyecto_bonos.png" alt="..." />
+                                    <p>Invierte en bonos del tesoro americano, una inversión fácil y de bajo riesgo. Ideal si te encuentras dando tus primeros pasos en inversiones.</p>
+                                    <ul class="list-inline" id="bonos">
+                                        <li>
+                                            <strong>Perfil Inversor:</strong>
+                                            Conservador
+                                        </li>
+                                        <li>
+                                            <strong>Riesgo Inversión:</strong>
+                                            Bajo
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase removeItBonos" type="button" onclick="removeButtonBonos(), invertirBonos()" >
+                                        Simular inversión
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Oro</h2>
+                                    <p class="item-intro text-muted">Tasa Nominal Anual: 3%</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/proyecto_oro.png" alt="..." />
+                                    <p>Invierte en Oro, uno de los mayores simbolos de riqueza de todos los tiempos.</p>
+                                    <ul class="list-inline" id="oro">
+                                        <li>
+                                            <strong>Perfil Inversor:</strong>
+                                            Conservador
+                                        </li>
+                                        <li>
+                                            <strong>Riesgo Inversión:</strong>
+                                            Moderado
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase removeItOro" type="button" onclick="removeButtonOro(), invertirOro()">
+                                        Simular inversión
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Proyectos Ganaderos</h2>
+                                    <p class="item-intro text-muted">Tasa Nominal Anual: 10%</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/proyecto_vacas.png" alt="..." />
+                                    <p>Invierte en proyectos ganaderos, un negocio en alza con alta proyección internacional.</p>
+                                    <ul class="list-inline" id="ganadero">
+                                        <li>
+                                            <strong>Perfil Inversor:</strong>
+                                            Moderado
+                                        </li>
+                                        <li>
+                                            <strong>Riesgo Inversión:</strong>
+                                            Moderado
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase removeItGanadero" type="button" onclick="removeButtonGanadero(), invertirGanadero()">
+                                        Simular inversión
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Criptoactivos</h2>
+                                    <p class="item-intro text-muted">Tasa Nominal Anual: 23%</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/proyecto_cripto.png" alt="..." />
+                                    <p>Invierte en criptomonedas, activos digitales descentralizados utilizados para realizar transacciones basadas en su microdivisivilidad y tecnologia blockchain.</p>
+                                    <ul class="list-inline" id="cripto">
+                                        <li>
+                                            <strong>Perfil Inversor:</strong>
+                                            Arriesgado
+                                        </li>
+                                        <li>
+                                            <strong>Riesgo Inversión:</strong>
+                                            Alto
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase removeItCripto"  type="button" onclick="removeButtonCripto(), invertirCripto()">
+                                        Simular inversión
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/miarchivojs.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script></html>
+
+    </body>
+</html>
